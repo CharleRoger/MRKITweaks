@@ -24,11 +24,11 @@ This patch corrects the synodic period to exactly 24 hours, like the Earth, and 
 
 ### ModifyPlanetOrbitalPeriods
 
-Changes the mass of the Sun to yield the desired length of Kerbin's orbit, naturally also scaling all the other planets with it. The default configuration of 175 days should be much less punishing and closer to quarter-scale than MRKI's default 464 days, even longer than Earth's!
+Changes the mass of the Sun to yield the desired length of Kerbin's orbit, naturally also scaling all the other planets with it. The default configuration of 180 days should be much less punishing and closer to quarter-scale than MRKI's default 464 days, even longer than Earth's!
 
 ### ModifyMunOrbitalPeriod
 
-Changes the Mun's orbit to fit an exact number of synodic months into Kerbin's year. The default configuration results in a change in the Mun's semi-major axis of less than 0.1%.
+Changes the Mun's orbit to fit an exact number of synodic months into Kerbin's year. The default configuration results in a change in the Mun's semi-major axis of around 2%.
 
 ### ModifyQuarterScale
 
@@ -53,7 +53,7 @@ Current configuration:
 
 ### CustomKronometerCalendar
 
-A custom 12-month, 175-day lunisolar calendar configured using the required mod Kronometer, complete with Kerbalised analogues of our terrestrial months.
+A custom 12-month, 180-day lunisolar calendar configured using the required mod Kronometer, complete with Kerbalised analogues of our terrestrial months.
 
 ## Compatibility
 

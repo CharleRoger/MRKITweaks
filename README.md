@@ -7,7 +7,7 @@ Fixes and modifications for the Kerbal Space Program mod [MRKI](https://github.c
 Some of the patches can be configured in `Settings.cfg` with the following options:
 
 - `dayLength` (default = 86,400) — The length of Kerbin's synodic rotation period, i.e. the time between successive sunrises, in seconds.
-- `daysPerYear` (default = 175) — The length of Kerbin's orbital period around the Sun in units of `dayLength`.
+- `daysPerYear` (default = 180) — The length of Kerbin's orbital period around the Sun in units of `dayLength`.
 - `monthsPerYear` (default = 12) — The number of synodic cycles of the Mun's phases in one orbit of Kerbin around the Sun.
 
 All other patches are designed to stand alone so can be opted out of simply by deleting them, but note that the behaviour of one patch may affect another. For example, `ModifyMunOrbitalPeriod` depends on Kerbin's orbital period which is set by `ModifyPlanetOrbitalPeriods`.
